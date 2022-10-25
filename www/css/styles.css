@@ -1,0 +1,44 @@
+html{
+    min-height:100vh;
+    margin:0;
+}
+
+body{
+    font-family: 'Acme', sans-serif;
+}
+
+/* <!-- https://codepen.io/suez/pen/PwKZwO -->
+ */
+@import "compass/css3";
+
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.scene {
+  position: relative;
+  height: 100%;
+  background: #1d1f20;
+  /* padding: 20rem; */
+  text-align: center;
+}
+h1 {
+  position: relative;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #fff;
+  z-index: 10;
+}
+.magic {
+  z-index: 5;
+  position: absolute;
+  top: calc(50% - 10rem);
+  left: calc(50% - 10rem);
+  width: 20rem;
+  height: 20rem;
+  background: url('/www/img/ocean1.jpg') 50% 50% no-repeat fixed;
+  background-size: cover;
+  border-radius: 50%;
+}
