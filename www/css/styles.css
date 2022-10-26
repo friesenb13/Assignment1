@@ -6,6 +6,9 @@ html{
 body{
     font-family: 'Acme', sans-serif;
 }
+.popover {
+    width: 200px;
+  }
 
 /* <!-- https://codepen.io/suez/pen/PwKZwO -->
  */
