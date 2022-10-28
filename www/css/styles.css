@@ -7,13 +7,12 @@ body{
     font-family: 'Acme', sans-serif;
 }
 .popover {
-    width: 200px;
+    width: 500px;
   }
 
 /* <!-- https://codepen.io/suez/pen/PwKZwO -->
  */
 @import "compass/css3";
-
 
 *, *:before, *:after {
   box-sizing:border-box;
@@ -27,8 +26,8 @@ body{
   padding: 40rem;
   text-align: center;
 }
-h1 {
-  /* position: relative; */
+.banner {
+  position:absolute;
   font-size: 50px;
   text-transform: uppercase;
   color: #fff;
@@ -45,3 +44,5 @@ h1 {
   background-size: cover;
   border-radius: 50%;
 }
+
+/* end of magic */
