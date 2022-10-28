@@ -40,7 +40,7 @@ body{
   left: calc(50% - 10rem);
   width: 20rem;
   height: 20rem;
-  background: url('/www/img/ocean1.jpg') 50% 50% no-repeat fixed;
+  background: url('/img/ocean1.jpg') 50% 50% no-repeat fixed;
   background-size: cover;
   border-radius: 50%;
 }
