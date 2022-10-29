@@ -7,7 +7,11 @@ body{
     font-family: 'Acme', sans-serif;
 }
 .popover {
-    width: 500px;
+    width: 200px;
+  }
+
+  .bubble{
+    display:none;
   }
 
 /* <!-- https://codepen.io/suez/pen/PwKZwO -->
@@ -22,17 +26,21 @@ body{
 .scene {
   position:relative;
   height: 100%;
+  width:500px;
   background: #1d1f20;
   padding: 40rem;
+  padding-left:100px;
   text-align: center;
+  overflow-x:hidden;
 }
-.banner {
+/* .banner {
   position:absolute;
+  width:auto;
   font-size: 50px;
   text-transform: uppercase;
   color: #fff;
   z-index: 10;
-}
+} */
 .magic {
   z-index: 5;
   position: absolute;
@@ -40,9 +48,10 @@ body{
   left: calc(50% - 10rem);
   width: 20rem;
   height: 20rem;
-  background: url('/img/ocean1.jpg') 50% 50% no-repeat fixed;
-  background-size: cover;
+  background: url('./ocean1.jpg') no-repeat fixed;
+  background-size: auto;
   border-radius: 50%;
+
 }
 
 /* end of magic */
