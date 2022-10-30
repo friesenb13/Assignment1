@@ -22,8 +22,18 @@ a{
   color:#e3bd36;
 }
 
+h1{
+  color:white;
+  background-color:rgba(13, 121, 121, 0.8);
+  text-align: center;
+}
+
 .panel{
   background-color:#52a168;
+}
+
+#quote{
+  color:#2E6171;
 }
 
 .material-icons{
@@ -38,7 +48,9 @@ a{
 }
 
 .popover {
-    width: 200px;
+    width: 150px;
+    background-color: #e3bd36;
+    color:#2E6171;
   }
 
   /* .bubble{ */

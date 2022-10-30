@@ -49,15 +49,16 @@
     <body>
       <!-- basic html for landing page -->
         <div id ="app">
-          <!-- panel components go here -->
+
+          
+          <!-- right panel components go here -->
           <div class="panel panel-right panel-cover">
       
-            <div class="block-title">Plant Details
+            <!-- <div class="block-title">Welcome to the coral reef!<br>What's your name explorer?
               <div class="list no-hairlines">
                 <ul>
                   <li class="item-content item-input">
                     <div class="item-inner">
-                      <!-- "item-floating-label" class on item title -->
                       <div class="item-title item-floating-label">Name</div>
                       <div class="item-input-wrap">
                         <input type="text" name="name" id="name-input" />
@@ -67,12 +68,104 @@
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> -->
       
       
             <div class="padding">
                 <q id="quote">Quote goes here</q>
             </div>
+
+            <!-- list -->
+            <div class="list">
+              <ul>
+                Which Fish Can you Find?
+                <!-- Single checkbox item -->
+                <li>
+                  <label class="item-checkbox item-content">
+                    <!-- Checkbox input -->
+                    <input type="checkbox" />
+                    <!-- Checkbox icon -->
+                    <i class="icon icon-checkbox"></i>
+                    <div class="item-inner">
+                      <!-- Checkbox Title -->
+                      <div class="item-title"><img src="./img/green-fish-small.png" id="greenfish"></div>
+                    </div>
+                  </label>
+                </li>
+                <!-- Another checkbox item -->
+                <li>
+                  <label class="item-checkbox item-content">
+                    <input type="checkbox" />
+                    <i class="icon icon-checkbox"></i>
+                    <div class="item-inner">
+                      <div class="item-title"><img src="./img/orange-fish-small.png"></div>
+                    </div>
+                  </label>
+                </li>
+
+                <li>
+                  <label class="item-checkbox item-content">
+                    <input type="checkbox" />
+                    <i class="icon icon-checkbox"></i>
+                    <div class="item-inner">
+                      <div class="item-title"><img src="./img/grey-fish-small.png"></div>
+                    </div>
+                  </label>
+                </li>
+
+                <li>
+                  <label class="item-checkbox item-content">
+                    <input type="checkbox" />
+                    <i class="icon icon-checkbox"></i>
+                    <div class="item-inner">
+                      <div class="item-title"><img src="./img/blueyellow.png"></div>
+                    </div>
+                  </label>
+                </li>
+
+                <li>
+                  <label class="item-checkbox item-content">
+                    <input type="checkbox" />
+                    <i class="icon icon-checkbox"></i>
+                    <div class="item-inner">
+                      <div class="item-title"><img src="./img/turt-small.png"></div>
+                    </div>
+                  </label>
+                </li>
+
+                <li>
+                  <label class="item-checkbox item-content">
+                    <input type="checkbox" />
+                    <i class="icon icon-checkbox"></i>
+                    <div class="item-inner">
+                      <div class="item-title"><img src="./img/yellow-fish.png"></div>
+                    </div>
+                  </label>
+                </li>
+
+                <li>
+                  <label class="item-checkbox item-content">
+                    <input type="checkbox" />
+                    <i class="icon icon-checkbox"></i>
+                    <div class="item-inner">
+                      <div class="item-title"><img src="./img/bubble-fish.png"></div>
+                    </div>
+                  </label>
+                </li>
+
+                <li>
+                  <label class="item-checkbox item-content">
+                    <input type="checkbox" />
+                    <i class="icon icon-checkbox"></i>
+                    <div class="item-inner">
+                      <div class="item-title"><img src="./img/angel.png"></div>
+                    </div>
+                  </label>
+                </li>
+                
+              </ul>
+            </div>
+            <!-- end list -->
           </div>
   <!-- https://www.codefixup.com/zoom-image-on-mouseover-jquery/ -->
 
@@ -112,7 +205,7 @@
 
   <!-- green fish -->
   <div>
-  <p><a class="link popover-open" href="#" data-popover=".popover-about" ><img src="./img/green-fish.png"></a></p>
+  <p><a class="link popover-open" href="#" data-popover=".popover-about" ><img src="./img/green-fish-small.png"></a></p>
 </div>
 <div class="popover popover-about">
   <div class="popover-inner">
@@ -126,7 +219,7 @@
 
   <!-- orange fish -->
   <div>
-    <p><a class="link popover-open" href="#" data-popover=".popover-about" ><img src="./img/orange-fish.png"></a></p>
+    <p><a class="link popover-open" href="#" data-popover=".popover-about" ><img src="./img/orange-fish-small.png"></a></p>
   </div>
   <div class="popover popover-about">
     <div class="popover-inner">
@@ -140,21 +233,23 @@
 
     <!-- grey fish -->
     <div>
-      <p><a class="link popover-open" href="#" data-popover=".popover-about" ><img src="./img/grey-fish.png"></a></p>
+      <p><a class="link popover-open" href="#" data-popover=".popover-about" ><img src="./img/grey-fish-small.png"></a></p>
     </div>
     <div class="popover popover-about">
       <div class="popover-inner">
         <div class="block">
           
-          <p>Blue fish</p>
+          <p>You found a fish!</p>
           
         </div>
       </div>
       </div>
-
+<div>
+  <h1>How many sea creatures can you find?</h1>
+</div>
 
   </div>
-  
+  <!-- end of flex -->
     </div>
   </div>
 </div>
@@ -195,4 +290,19 @@
    -->
   
    <!-- Photo by <a href="https://unsplash.com/@davidclode?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">David Clode</a> on <a href="https://unsplash.com/s/photos/fish?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   -->
+
+   <!-- Photo by <a href="https://unsplash.com/@davidclode?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">David Clode</a> on <a href="https://unsplash.com/s/photos/fish?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   -->
+
+   <!-- Photo by <a href="https://unsplash.com/es/@melroseadam?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Adam Melrose</a> on <a href="https://unsplash.com/s/photos/fish?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   -->
+
+   <!-- Photo by <a href="https://unsplash.com/ja/@davidklaasen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">David Klaasen</a> on <a href="https://unsplash.com/s/photos/fish?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   -->
+
+   <!-- Photo by <a href="https://unsplash.com/@rayjo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ray Aucott</a> on <a href="https://unsplash.com/s/photos/fish?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   -->
+
+   <!-- Photo by <a href="https://unsplash.com/@wexor?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Wexor Tmg</a> on <a href="https://unsplash.com/s/photos/turtle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
    -->
