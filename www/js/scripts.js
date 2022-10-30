@@ -22,10 +22,13 @@ var app = new Framework7({
 });
 var mainView = app.views.create('.view-main')
 
-$("#turt").on("click", function() { //anonymous callback function
+$("#porthole").on("click", function(){
+  console.log("port")
+  $("#porthole").toggleClass('flip');
+})
 
-  console.log("bubble")
-  
+$("#turt").on("click", function() { 
+  console.log("turt")
 
 })
 

@@ -1,11 +1,42 @@
 html{
-    min-height:100vh;
+    /* min-height:100vh; */
+    
     margin:0;
 }
-
 body{
-    font-family: 'Acme', sans-serif;
+  font-family: 'Acme', sans-serif;
 }
+.page-content{
+  background-image: url("ocean3.jpg") ;
+  /* background: rgb(46,97,113);
+background: linear-gradient(167deg, rgba(46,97,113,1) 31%, rgba(0,0,0,1) 100%); */
+  /* background-color: #2E6171; */
+  min-height:100vh;
+}
+
+.title-large{
+  color:white;
+}
+
+a{
+  color:#e3bd36;
+}
+
+.panel{
+  background-color:#52a168;
+}
+
+.material-icons{
+  color:white;
+}
+
+#porthole{
+  transition: transform 3s;
+}
+.flip{
+  transform: rotate(360deg);
+}
+
 .popover {
     width: 200px;
   }
