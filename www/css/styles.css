@@ -26,15 +26,26 @@ a{
   color:#e3bd36;
 }
 
-h1, h2{
+h1{
   color:white;
   background-color:rgba(13, 121, 121, 0.8);
   width:100vw;
   text-align: center;
 }
 
+h2{
+  color:white;
+}
+
+.right{
+  margin-top:5px;
+}
 .panel{
   background-color:#52a168;
+}
+
+.panel-left{
+  background-color: #2E6171;
 }
 
 .list ul{
@@ -51,6 +62,10 @@ h1, h2{
 
 .material-icons{
   color:white;
+}
+
+.ref{
+  font-size: 8px;
 }
 
 #porthole{
@@ -73,6 +88,10 @@ h1, h2{
   #orange {
     transform:translateX(100px);
   }
+  #grey{
+    transform:translateX(-100px);
+
+  }
 
   #turt {
     transform:translateX(-100px);
@@ -80,6 +99,23 @@ h1, h2{
 
   #turt1 {
     transform:translateY(100px);
+  }
+
+  #angel{
+    transform: translateX(150px);
+  }
+
+  #clown{
+    transform:translateX(-100px);
+
+  }
+
+  #neon{
+    transform:translateX(100px);
+  }
+
+  #bubble{
+    transform: translateY(80px);
   }
 
   /* .bubble{ */

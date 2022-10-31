@@ -21,17 +21,11 @@ var app = new Framework7({
   
 });
 var mainView = app.views.create('.view-main')
+var $$  = Dom7;
 
 $("#porthole").on("click", function(){
   console.log("port")
   $("#porthole").toggleClass('flip');
-})
-
-
-$("#turt").on("click", function() { 
-  console.log("turt")
-  $("#turt").addClass("animate__animated animate__swing")
-
 })
 
 $("#fish").on("click", function() { 
@@ -39,6 +33,27 @@ $("#fish").on("click", function() {
   $("#fish").addClass("animate__animated animate__swing")
 })
 
+
+$$(document).on('page:init', '.page[data-name="page2"]', function(e){ 
+  $("#turt").on("click", function() { 
+    console.log("turt")
+    $("#turt").addClass("animate__animated animate__swing")
+  
+  })
+  })
+
+  $$(document).on('page:init', '.page[data-name="page3"]', function(e){ 
+  $("#clown").on("click", function() { 
+    console.log("clown")
+    $("#clown").addClass("animate__animated animate__swing")
+  
+  })
+  $("#neon").on("click", function() { 
+    console.log("neon")
+    $("#neon").addClass("animate__animated animate__swing")
+  
+  })
+})
 
 //quotes array
 //when panel opens it displays a new quote everytime
