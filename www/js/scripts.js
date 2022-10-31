@@ -5,7 +5,7 @@ var app = new Framework7({
   // ... other parameters
   routes: [
     {
-      path: '/',
+      path: '/page1/',
       url: 'index.html',
     },
     {
@@ -30,7 +30,7 @@ $("#porthole").on("click", function(){
 
 $("#turt").on("click", function() { 
   console.log("turt")
-  $("#fish").addClass("animate__animated animate__swing")
+  $("#turt").addClass("animate__animated animate__swing")
 
 })
 
