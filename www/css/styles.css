@@ -15,7 +15,7 @@ body{
 
 .right{
   margin:50px;
-  padding-top:30px;
+  padding-top:25px;
 }
 
 .title-large{
@@ -79,7 +79,7 @@ h1, h2{
   }
 
   #turt1 {
-    transform:translateY(200px);
+    transform:translateY(100px);
   }
 
   /* .bubble{ */
