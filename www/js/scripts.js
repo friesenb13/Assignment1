@@ -33,6 +33,8 @@ $("#turt").on("click", function() {
 
 })
 
+
+
 //quotes array
 //when panel opens it displays a new quote everytime
 $(".panel").on("panel:open", function(){
