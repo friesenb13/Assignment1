@@ -20,14 +20,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <!--
-        Customize this policy to fit your own app's needs. For more guidance, please refer to the docs:
-            https://cordova.apache.org/docs/en/latest/
-        Some notes:
-            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
-            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
-                * Enable inline JS: add 'unsafe-inline' to default-src
-        -->
+
         <meta name="format-detection" content="telephone=no">
   <meta name="msapplication-tap-highlight" content="no">
   <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
@@ -36,6 +29,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
   <link rel="stylesheet" href="css/framework7-bundle.min.css">
   <link rel="stylesheet" href="css/styles.css">
   <title>Discover</title>
@@ -44,6 +38,12 @@
   <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+
+<!-- animate css -->
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
 
     </head>
     <body>
@@ -167,7 +167,6 @@
             </div>
             <!-- end list -->
           </div>
-  <!-- https://www.codefixup.com/zoom-image-on-mouseover-jquery/ -->
 
 <div class="view view-main">
 
@@ -184,7 +183,7 @@
 <div class="navbar no-shadow navbar-large">
   <div class="navbar-inner">
     <div class="right">
-      <a href="#" class="panel-open link icon-only"><i class="icon material-icons">more_horiz</i></a>
+      <a href="#" class="panel-open link icon-only"><img src="./img/clipboard.png" class="clipboard"></a>
     </div>
     <div class="title-large">
       <div class="title-large-text name-display">DISCOVER <img src="./img/wave.png"></div>
@@ -200,12 +199,15 @@
     <div class="page-content">
   <div class="flex">
     <div>
+      <h1>Let's explore the coral reef!</h1>
+    </div>
+    <div>
     <img src="./img/porthole.png" class="porthole" id="porthole">
   </div>
 
   <!-- green fish -->
   <div>
-  <p><a class="link popover-open" href="#" data-popover=".popover-about" ><img src="./img/green-fish-small.png"></a></p>
+  <p><a class="link popover-open" href="#" data-popover=".popover-about" ><img src="./img/green-fish-small.png" id="green"></a></p>
 </div>
 <div class="popover popover-about">
   <div class="popover-inner">
@@ -219,19 +221,19 @@
 
   <!-- orange fish -->
   <div>
-    <p><a class="link popover-open" href="#" data-popover=".popover-about" ><img src="./img/orange-fish-small.png"></a></p>
+    <p><a class="link popover-open" href="#" data-popover=".popover-about" ><img src="./img/orange-fish-small.png" id="orange"></a></p>
   </div>
   <div class="popover popover-about">
     <div class="popover-inner">
       <div class="block">
         
-        <p>Lots of fish!</p>
+        <p>Found one!</p>
         
       </div>
     </div>
     </div>
 
-    <div id="area">
+    <div>
       
       <img src="./img/grey-fish-small.png" id="fish">
     
@@ -251,7 +253,7 @@
       </div>
       </div> -->
 <div>
-  <h1>How many sea creatures can you find?</h1>
+  <h1>How many sea creatures can you find?<br>Check the list to see what you need to find!</h1>
 </div>
 
   </div>
@@ -288,6 +290,8 @@
 
    <!-- <a href="https://www.flaticon.com/free-icons/porthole" title="porthole icons">Porthole icons created by JessHG - Flaticon</a> -->
 
+   <!-- <a href="https://www.flaticon.com/free-icons/list" title="list icons">List icons created by Kiranshastry - Flaticon</a> -->
+
 
    <!-- fish -->
    <!-- Photo by <a href="https://unsplash.com/@szutsi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Gábor Szűts</a> on <a href="https://unsplash.com/s/photos/fish?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
@@ -311,4 +315,7 @@
    -->
 
    <!-- Photo by <a href="https://unsplash.com/@wexor?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Wexor Tmg</a> on <a href="https://unsplash.com/s/photos/turtle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   -->
+
+   <!-- Photo by <a href="https://unsplash.com/@jetlag?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">David Troeger</a> on <a href="https://unsplash.com/s/photos/turtle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
    -->

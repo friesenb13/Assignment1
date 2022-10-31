@@ -30,9 +30,14 @@ $("#porthole").on("click", function(){
 
 $("#turt").on("click", function() { 
   console.log("turt")
+  $("#fish").addClass("animate__animated animate__swing")
 
 })
 
+$("#fish").on("click", function() { 
+  console.log("fish")
+  $("#fish").addClass("animate__animated animate__swing")
+})
 
 
 //quotes array

@@ -1,3 +1,5 @@
+
+
 html{
     /* min-height:100vh; */
     
@@ -14,6 +16,11 @@ background: linear-gradient(167deg, rgba(46,97,113,1) 31%, rgba(0,0,0,1) 100%); 
   min-height:100vh;
 }
 
+.right{
+  margin:50px;
+  padding-top:30px;
+}
+
 .title-large{
   color:white;
 }
@@ -22,9 +29,10 @@ a{
   color:#e3bd36;
 }
 
-h1{
+h1, h2{
   color:white;
   background-color:rgba(13, 121, 121, 0.8);
+  width:100vw;
   text-align: center;
 }
 
@@ -32,8 +40,16 @@ h1{
   background-color:#52a168;
 }
 
+.list ul{
+  background-color: #2E6171;
+  color:white;
+  text-align: center;
+}
+
 #quote{
-  color:#2E6171;
+  color:#e3bd36;
+  font-size: 15px;
+  text-align: center;
 }
 
 .material-icons{
@@ -52,6 +68,21 @@ h1{
     width: 150px;
     background-color: #e3bd36;
     color:#2E6171;
+  }
+
+  #green {
+    transform:translateX(-100px);
+  }
+  #orange {
+    transform:translateX(100px);
+  }
+
+  #turt {
+    transform:translateX(-100px);
+  }
+
+  #turt1 {
+    transform:translateY(200px);
   }
 
   /* .bubble{ */
